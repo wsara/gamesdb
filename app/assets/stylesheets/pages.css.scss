@@ -1,3 +1,17 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$font-stack:    'Lato', Helvetica, sans-serif;
+$primary-color: #c0392b;
+$background-color: white;
+
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+}

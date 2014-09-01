@@ -1,4 +1,9 @@
-<h1>Games Database</h1>
-
-<%= link_to "Search Games", "javascript:void(0)" %>
-<%= link_to "Add Game", "javascript:void(0)" %>
+<div class = "container">
+	<div class = "jumbotron center">
+		<h1>Games Database</h1>
+			<p>
+				<%= link_to "View Games", games_path, class: "btn btn-default btn-lg" %>
+				<%= link_to "Add a Game", new_game_path, class: "btn btn-primary btn-lg" %>
+			</p>
+	</div>
+</div>
